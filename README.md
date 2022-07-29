@@ -2,61 +2,32 @@
 
 # Project Name
 
-> Description the project.
+> My Portfolio.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**This repository is about building "My Portfolio" web page and this is my first web page creation.**
 
 ## Authors
 
-👤 **Author1**
+👤 **PRATAP**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@PRATAP-KUMAR](https://github.com/PRATAP-KUMAR)
+- Twitter: [@PRATAP_TWT](https://twitter.com/PRATAP_TWT)
+- Linkedin: [@LinkedIn](https://www.linkedin.com/in/pratap-kumar-panabaka-755489236/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/PRATAP-KUMAR/my-portfolio-from-scratch/issues).
 
 ## Show your support
 
@@ -65,8 +36,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
