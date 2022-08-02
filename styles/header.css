@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+}
+
+.header > h2 {
+  padding: 0 10px;
+}
+
+.header > .ham-btn {
+  padding: 0 10px;
+}

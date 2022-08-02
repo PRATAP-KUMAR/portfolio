@@ -1,0 +1,54 @@
+.form-content-wrapper {
+  padding-top: 130px;
+  background-color: #fff;
+}
+
+.contact-me {
+  background: #6070ff url('../images/contact-me-bg.svg') right top no-repeat;
+  border-top-left-radius: 84px;
+}
+
+.form-content {
+  color: #fff;
+}
+
+.form-content > h2 {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.form-content > p {
+  padding: 20px 40px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.form-content > form {
+  padding: 20px;
+}
+
+.form-fields input,
+.form-fields textarea {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* .form-content button {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+} */

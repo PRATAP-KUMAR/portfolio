@@ -1,0 +1,21 @@
+@import "./body.css";
+@import "./header.css";
+@import "./home-page.css";
+@import "./about.css";
+@import "./languages.css";
+@import "./contact.css";
+@import "./articles.css";
+@import "./popup.css";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  flex: 1;
+  overflow: auto;
+  height: calc(100vh - 45px);
+  margin-top: 45px;
+}

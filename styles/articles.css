@@ -1,0 +1,77 @@
+.java-script {
+  padding: 0;
+}
+
+.article-container {
+  padding: 20px;
+  margin: 88px 20px;
+  background-color: #fff;
+  border-radius: 25px;
+  border: 1px solid #bbb;
+}
+
+.article-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 20px;
+}
+
+.article-container > ul,
+.popup > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.article-container > p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.job-tags {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.job-tags:first-child {
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.tech-tags {
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #6070ff;
+}
+
+.see-project,
+.see-live,
+.see-source {
+  background-color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  color: #386df2;
+  padding: 12px;
+  cursor: pointer;
+  border: 2px solid #386df2;
+  border-radius: 8px;
+}
+
+.article-tags li {
+  border: 1px solid red;
+  padding: 10px 12px;
+  background-color: transparent;
+}
