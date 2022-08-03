@@ -7,7 +7,7 @@
 .home-background {
   background: transparent url(../images/mobile-bg-home-page.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding: 20px;
 }
 
@@ -47,4 +47,13 @@
 .social-media-icons > ul a {
   color: #505f79;
   font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-background {
+    background: url(../images/desktop-bg-home-page.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 260px;
+  }
 }

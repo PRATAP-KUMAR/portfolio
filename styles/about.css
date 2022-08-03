@@ -41,4 +41,40 @@
   border: 2px solid #386df2;
   border-radius: 8px;
   margin-bottom: 20px;
+  width: fit-content;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-background {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five";
+  }
+
+  .about-background > h2 {
+    grid-area: one;
+  }
+
+  .about-background > p {
+    grid-area: two;
+  }
+
+  .lets-connect {
+    grid-area: three;
+  }
+
+  .social-media-icons {
+    grid-area: four;
+  }
+
+  .about-background > button {
+    grid-area: five;
+  }
 }

@@ -44,11 +44,10 @@
   width: 100%;
 }
 
-/* .form-content button {
-    padding: 10px;
-    background-color: #fff;
-    border: none;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    display: flex;
-} */
+@media only screen and (min-width: 768px) {
+  .contact-me {
+    background: #6070ff url('../images/contact-me-desktop-bg.svg') right top no-repeat;
+    border-top-left-radius: 84px;
+    padding: 8rem;
+  }
+}

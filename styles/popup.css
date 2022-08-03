@@ -1,6 +1,5 @@
 .popup {
-  background-color: #d5d5d5;
-  border: 5px solid green;
+  background-color: #fff;
   z-index: 9999;
   position: fixed;
   top: 0;
@@ -30,6 +29,15 @@
   line-height: 44px;
   color: #172b4d;
   margin-top: 20px;
+}
+
+.top-bar > i {
+  font-size: 32px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #6070ff;
+  color: #fff;
+  cursor: pointer;
 }
 
 .popup > p {

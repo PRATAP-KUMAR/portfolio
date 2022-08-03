@@ -38,6 +38,11 @@ const Popup = (card) => {
 
   const closeIcon = document.createElement('i');
   closeIcon.className = 'fa-solid fa-close';
+  closeIcon.addEventListener('click', () => {
+    closeIcon.parentElement.remove();
+    element.remove();
+    document.body.classList.toggle('hide-body-scrolling');
+  });
   div.appendChild(closeIcon);
 
   element.append(jobTags(card.careerDetails));

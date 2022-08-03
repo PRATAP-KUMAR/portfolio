@@ -68,10 +68,57 @@
   cursor: pointer;
   border: 2px solid #386df2;
   border-radius: 8px;
+  width: fit-content;
 }
 
 .article-tags li {
   border: 1px solid red;
   padding: 10px 12px;
   background-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .article-container {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+
+  .article-container:nth-child(odd) {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      "one two"
+      "one three"
+      "one four"
+      "one five"
+      "one six";
+  }
+
+  .article-container:nth-child(even) {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      "two one"
+      "three one"
+      "four one"
+      "five one"
+      "six one";
+  }
+
+  .article-container > img {
+    grid-area: one;
+  }
+
+  .article-container > h2 {
+    grid-area: two;
+  }
+
+  .article-container > p {
+    grid-area: three;
+    margin-top: 20px;
+  }
 }
