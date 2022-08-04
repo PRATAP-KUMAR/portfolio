@@ -111,6 +111,7 @@
 
   .article-container > img {
     grid-area: one;
+    background-size: cover;
   }
 
   .article-container > h2 {

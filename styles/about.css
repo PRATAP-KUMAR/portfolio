@@ -45,36 +45,37 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .about-background {
+  .about-contact {
     display: grid;
-    column-gap: 40px;
     grid-template-columns: 1fr 1.5fr;
-    grid-template-rows: 1fr auto;
-    grid-template-areas:
-      "one"
-      "two"
-      "three"
-      "four"
-      "five";
   }
 
-  .about-background > h2 {
-    grid-area: one;
+  .about-page {
+    border-top-right-radius: 0;
   }
 
-  .about-background > p {
-    grid-area: two;
+  .about-background {
+    grid-column: 1;
   }
 
-  .lets-connect {
-    grid-area: three;
+  #languages {
+    grid-column: 2;
+    margin-top: 114px;
+    border-top-right-radius: 84px;
   }
 
-  .social-media-icons {
-    grid-area: four;
+  .languages {
+    margin-top: 100px;
   }
 
-  .about-background > button {
-    grid-area: five;
+  .languages-desktop {
+    display: flex;
+  }
+
+  .js {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: flex-start;
   }
 }
