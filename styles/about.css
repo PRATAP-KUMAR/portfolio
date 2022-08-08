@@ -51,7 +51,9 @@
   }
 
   .about-page {
+    margin-top: 0;
     border-top-right-radius: 0;
+    padding-left: 180px;
   }
 
   .about-background {
@@ -60,12 +62,18 @@
 
   #languages {
     grid-column: 2;
-    margin-top: 114px;
+    padding-top: 114px;
     border-top-right-radius: 84px;
   }
 
   .languages {
     margin-top: 100px;
+  }
+
+  .languages,
+  .frameworks,
+  .skills {
+    margin-right: 140px;
   }
 
   .languages-desktop {

@@ -45,9 +45,25 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .form-content-wrapper {
+    padding-top: 130px;
+    background-color: #fff;
+  }
+
   .contact-me {
     background: #6070ff url('../images/contact-me-desktop-bg.svg') right top no-repeat;
     border-top-left-radius: 84px;
-    padding: 8rem;
+    padding: 50px 200px;
+    justify-content: center;
+  }
+
+  .form-content > p {
+    width: 70%;
+  }
+
+  .contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
