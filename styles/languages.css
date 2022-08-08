@@ -1,0 +1,34 @@
+
+.js {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  background-color: #f7f7f9;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+#languages {
+  background-color: #fff;
+  padding: 20px;
+}
+
+#languages hr {
+  margin: 24px;
+}
+
+.skill-set {
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill-set:first-child {
+  border-bottom: none;
+}

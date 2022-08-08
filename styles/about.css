@@ -1,0 +1,89 @@
+.about-page {
+  margin-top: 114px;
+  border-top-right-radius: 84px;
+  background-color: #fff;
+  padding-top: 114px;
+  padding-left: 20px;
+}
+
+.about-background > h2 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.about-background > p {
+  color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.languages,
+.frameworks,
+.skills {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#get-my-resume,
+.btn {
+  background-color: #fff;
+  font-size: 17px;
+  line-height: 24px;
+  color: #386df2;
+  padding: 12px;
+  cursor: pointer;
+  border: 2px solid #386df2;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-contact {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .about-page {
+    margin-top: 0;
+    border-top-right-radius: 0;
+    padding-left: 180px;
+  }
+
+  .about-background {
+    grid-column: 1;
+  }
+
+  #languages {
+    grid-column: 2;
+    padding-top: 114px;
+    border-top-right-radius: 84px;
+  }
+
+  .languages {
+    margin-top: 100px;
+  }
+
+  .languages,
+  .frameworks,
+  .skills {
+    margin-right: 140px;
+  }
+
+  .languages-desktop {
+    display: flex;
+  }
+
+  .js {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: flex-start;
+  }
+}
