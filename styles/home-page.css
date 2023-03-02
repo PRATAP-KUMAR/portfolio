@@ -1,0 +1,59 @@
+.home-page {
+  border-bottom-left-radius: 80px;
+  padding-bottom: 64px;
+  background-color: #fff;
+}
+
+.home-background {
+  background: transparent url(../images/mobile-bg-home-page.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.home-background > h2 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-top: 100px;
+}
+
+.home-background > p {
+  color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.lets-connect {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.social-media-icons {
+  margin-bottom: 30px;
+}
+
+.social-media-icons > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.social-media-icons > ul a {
+  color: #505f79;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-background {
+    background: url(../images/desktop-bg-home-page.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 260px;
+  }
+}
